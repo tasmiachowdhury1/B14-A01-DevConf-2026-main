@@ -9,7 +9,7 @@
 .navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
+    padding-top: 30px;
     align-items: center;
 
 }
@@ -38,11 +38,68 @@
     color: white;
     background-color: #1D4ED8;
     border: none;
-    border-radius: 5px;
-    padding: 10px 40px;
+    border-radius: 6px;
+    padding: 13px 40px;
     font-weight: 550;
-
+    cursor: pointer;
+    font-size: 15px;
 }
 
 /* header end */
 /* banner */
+.banner {
+
+    background-position: center;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6)),
+        url("./assets/banner.jpg");
+    background-size: cover;
+    height: 900px;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+
+
+
+    background-repeat: no-repeat;
+    color: white;
+
+
+}
+
+.code {
+    color: white;
+    font-size: 80px;
+    padding-top: 100px;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 800px;
+    line-height: 1.5;
+
+}
+
+.conference {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.register-2 {
+    color: white;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 6px;
+    padding: 20px 55px;
+    font-weight: 550;
+    font-size: 20px;
+    margin-top: 400px;
+    cursor: pointer;
+
+
+}
+
+/* banner end */
