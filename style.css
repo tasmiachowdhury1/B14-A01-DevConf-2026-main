@@ -30,8 +30,10 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
+    padding: 0 20px;
+
 }
 
 .register {
@@ -103,3 +105,65 @@
 }
 
 /* banner end */
+/* speaker section */
+.speakers {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.speakers h1 {
+    font-size: 50px;
+    color: #000102;
+
+
+}
+
+
+
+.speaker {
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 7px;
+    width: 644px;
+    height: 460px;
+
+
+
+}
+
+.persons {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    gap: 30px;
+
+
+}
+
+.about-speaker {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.passion {
+    color: #2563EB;
+    font-size: 13px;
+}
+
+.about-speaker h4 {
+    color: #0D1B2A;
+    font-size: 18px;
+}
+
+.rule-in-company {
+    color: #575757;
+    font-size: 15px;
+}
+
+/* speaker section end */
+/* secure section */
