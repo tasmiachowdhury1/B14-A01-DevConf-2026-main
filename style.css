@@ -1,4 +1,8 @@
 /* Header */
+header {
+    margin-top: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +31,7 @@
 .navbar {
     color: #575757;
     font-weight: 550;
+    cursor: pointer;
 }
 
 .container {
@@ -248,6 +253,7 @@
     border-radius: 5px;
     background-color: white;
     padding: 15px 20px;
+    cursor: pointer;
 }
 
 .pro-dollar {
@@ -323,3 +329,43 @@
 }
 
 /* relevant section end */
+/* footer */
+
+footer {
+    margin-top: 80px;
+    background-color: #0D1B2A;
+    padding: 30px 0px;
+
+
+
+
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+    justify-content: space-between;
+
+}
+
+.icon {
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+i {
+    cursor: pointer;
+}
+
+/* The end */
