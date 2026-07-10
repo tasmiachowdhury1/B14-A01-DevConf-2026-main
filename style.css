@@ -1,0 +1,48 @@
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+
+}
+
+.navbars {
+    display: flex;
+    gap: 25px;
+}
+
+.navbars li {
+    list-style: none;
+}
+
+
+.navbar {
+    color: #575757;
+    font-weight: 550;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.register {
+    color: white;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 550;
+
+}
+
+/* header end */
+/* banner */
