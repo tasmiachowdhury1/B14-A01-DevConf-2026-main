@@ -289,3 +289,37 @@
     border-bottom: 1px solid #E5E7EB;
     padding-bottom: 20px;
 }
+
+/* secure section end */
+/* relevant section */
+.relevant-sec {
+    margin-top: 90px;
+    background-color: #EDE9FE;
+    border: 5px dashed #7C3AED;
+    text-align: center;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.relevant-sec h1 {
+    color: #7C3AED;
+    font-size: 40px;
+
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.schedule p {
+    line-height: 1.8;
+    color: #9F67EA;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* relevant section end */
